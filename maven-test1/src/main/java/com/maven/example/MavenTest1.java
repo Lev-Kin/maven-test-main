@@ -7,8 +7,6 @@ import ch.qos.logback.core.util.StatusPrinter;
 
 public class MavenTest1 {
 
-  //static final Logger logger = LoggerFactory.getLogger(MavenTest1.class);
-
   public static void main(String[] args) {
 
     Logger logger = LoggerFactory.getLogger("com.maven.example.MavenTest1");
