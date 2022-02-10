@@ -20,7 +20,6 @@ public class MavenTest1 {
     // print internal state
     LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
     StatusPrinter.print(lc);
-
   }
 
 }

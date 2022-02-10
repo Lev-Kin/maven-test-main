@@ -5,12 +5,10 @@ import org.slf4j.LoggerFactory;
 
 public class Foo {
 
-  final static Logger logger = LoggerFactory.getLogger(Foo.class);
+  static final Logger logger = LoggerFactory.getLogger(Foo.class);
 
   public void doIt() {
     logger.debug("Did it! - Foo.class");
-
-
 
   }
 
