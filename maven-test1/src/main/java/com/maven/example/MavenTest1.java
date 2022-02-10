@@ -15,7 +15,8 @@ public class MavenTest1 {
     foo.doIt();
 
     logger.info("info - Hello Maven-test1 !!!");
-    logger.debug("debug - Hello Logback !!! {}", System.lineSeparator());
+    logger.debug("debug - Hello Logback !!!");
+    logger.info("info - Exiting application.{}", System.lineSeparator());
 
     // print internal state
     LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
