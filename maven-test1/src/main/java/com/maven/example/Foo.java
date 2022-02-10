@@ -9,6 +9,9 @@ public class Foo {
 
   public void doIt() {
     logger.debug("Did it! - Foo.class");
+
+
+
   }
 
 }
