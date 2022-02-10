@@ -7,9 +7,12 @@ import org.slf4j.LoggerFactory;
 
 public class MavenTest1 {
 
-  public static final Logger logger = LoggerFactory.getLogger(MavenTest1.class);
+  static final Logger logger = LoggerFactory.getLogger(MavenTest1.class);
 
   public static void main(String[] args) {
+
+    Foo foo = new Foo();
+    foo.doIt();
 
     logger.info("info - Hello Maven-test1 !!!");
     logger.debug("debug - Hello Logback !!! {}", System.lineSeparator());
