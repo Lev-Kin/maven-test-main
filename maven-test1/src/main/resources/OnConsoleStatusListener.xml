@@ -1,6 +1,0 @@
-<configuration>
-  <!-- Recommendation: place status listeners towards the the top of the configuration file -->
-  <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
-
-  ... the rest of the configuration file
-</configuration>
