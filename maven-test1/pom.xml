@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>maven-web-logger</artifactId>
-  <packaging>war</packaging>
+
 
   <name>MavenWebapp</name>
   <!-- FIXME change it to the project's website -->
